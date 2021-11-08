@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* default settings */
+ul {display: inline-block;}
+
+.styl_btn {
+    padding:8px 16px;
+    color: #fff;
+    background-color: #0061fe;
+}
+/* default settings */
+
+header {
+    border: 1px solid #010101;
+}
+
+nav {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.navigation img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 32px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 32px;
+}
+
+.sx {float: left;}
+.dx {float: right;}

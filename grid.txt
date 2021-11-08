@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.left {
+	display:inline-block;
+	width:500px;
+    height:auto;
+	background-color:#010101;
+    font-size:0;
+}
+
+.center {
+	display:inline-block;
+	width:500px;
+    height:auto;
+	background-color:blue;
+}
+
+.right {
+	display:inline-block;
+	width:500px;
+    height:auto;
+	background-color:green;
+}
+
+.left > div {
+	width:250px;
+    height:250px;
+    background-color:red;
+    display:inline-block;
+}
+
+</style>
+</head>
+<body>
+<div class="left">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="center">s</div>
+<div class="right">s</div>
+</body>
+</html>
+
+
