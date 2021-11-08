@@ -48,6 +48,7 @@ nav {
 /* main-banner */
 
 .main {
+    max-height: 750px;
     background-color: #b4d0e7;
 }
 
@@ -59,19 +60,19 @@ nav {
     clear: both;
 }
 
-h1 {
+#main_banner h1 {
+    font-size: 95px;
     padding: 80px 0;
 }
 
 .left_info {
     float: left;
+    width: 400px;
     height: 200px;
-    background-color:crimson;
 }
 
 #cta_bloc {
-    padding: 24px 0;
-    background-color: green;
+    padding: 24px 0 32px;
 }
 
 #cta_bloc p {
@@ -79,12 +80,15 @@ h1 {
 }
 
 .fas {
-    padding: 24px;
     font-size: 32px;
 }
 
 .right_info {
     float: left;
-    width: 200px;
-    background-color:brown;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.right_info img {
+    width: 100%;
 }
