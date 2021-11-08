@@ -117,7 +117,7 @@ nav {
 
 /* price table */
 .price-grid {
-    margin: 200px auto 0;
+    margin: 200px auto 100px;
 }
 
 .title_content h2 {
@@ -199,4 +199,21 @@ nav {
     height: 200px;
 }
 
-/* price table */
+/* banner-left */
+
+.banner_text {
+    margin-bottom: 80px;
+}
+
+.img_content {
+    width: 500px;
+}
+
+.img_content img {
+    width: 100%;
+}
+
+.txt_content {
+    width: 500px;
+    padding: 40px 0 0 40px;
+}
