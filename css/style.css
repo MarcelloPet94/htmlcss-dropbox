@@ -12,6 +12,12 @@ ul {display: inline-block;}
 
 ul li {list-style-type: none;}
 
+.clearfix::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+
 .styl_btn {
     padding:8px 16px;
     color: #fff;
@@ -126,22 +132,16 @@ nav {
     margin-right: 24px;
 }
 
-.grid_3 {
-    /*
-    content: "";
-    display: table;*/
-    clear: both;
-}
 
 .grid_3 > div {
-    display: inline-block;
+    float:left;
     width: 300px;
     height: auto;
 }
 
-.grid_3 > div:nth-child(1) {float: left;}
+
 .grid_3 > div:nth-child(2) {margin: 0 5%;}
-.grid_3 > div:nth-child(3) {float: right;}
+
 
 .customer {
     padding: 16px 0;
@@ -193,7 +193,6 @@ nav {
 }
 
 .full_info_box {
-    background-color: chocolate;
 }
 
 /* price table */
