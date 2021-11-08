@@ -25,6 +25,10 @@ ul li {list-style-type: none;}
 .styl_border_bottom {
     border-bottom: 1px solid #d0d0d3;
 }
+main {
+    margin: 0 auto;
+    width: 1000px;
+}
 
 .edit_width {
     margin: 0 auto;
@@ -111,8 +115,6 @@ nav {
 }
 
 .grid_3 {
-    margin: 0 auto;
-    width: 1000px;
     content: "";
     display: table;
     clear: both;
