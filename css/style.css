@@ -1,10 +1,13 @@
+/* default settings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:sans-serif;
 }
 
-/* default settings */
+a {text-decoration: none;}
+
 ul {display: inline-block;}
 
 .styl_btn {
@@ -12,8 +15,10 @@ ul {display: inline-block;}
     color: #fff;
     background-color: #0061fe;
 }
+
 /* default settings */
 
+/* nav */
 header {
     border: 1px solid #010101;
 }
@@ -39,3 +44,47 @@ nav {
 
 .sx {float: left;}
 .dx {float: right;}
+
+/* main-banner */
+
+.main {
+    background-color: #b4d0e7;
+}
+
+#main_banner {
+    margin: 0 auto;
+    width: 1500px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    padding: 80px 0;
+}
+
+.left_info {
+    float: left;
+    height: 200px;
+    background-color:crimson;
+}
+
+#cta_bloc {
+    padding: 24px 0;
+    background-color: green;
+}
+
+#cta_bloc p {
+    margin-top: 24px;
+}
+
+.fas {
+    padding: 24px;
+    font-size: 32px;
+}
+
+.right_info {
+    float: left;
+    width: 200px;
+    background-color:brown;
+}
