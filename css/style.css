@@ -261,23 +261,21 @@ nav {
 }
 
 .col, .col-cent {
-    display: inline-block;
+    float: left;
     width: 33.3%;
 }
 
-/* .col-cent {
-    position: relative;
-    top: 0;
+.col-cent {
+    height: 100px;
     border: 1px solid red;
 }
 
 .col-cent-text {
     height: 252px;
-    border: 1px solid blue;
-} */
+} 
 
 .col .logo-box {
-    display: inline-block;
+    float: left;
     width:252px;
     height: 252px;
 }
