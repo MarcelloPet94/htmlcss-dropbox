@@ -393,10 +393,22 @@ footer {background-color:#010101;}
 
 hr {
     width: 100px;
-    background-color: #fff;
+    background-color: #d0d0d3;
 }
 
 .lang {
+    font-size: 13px;
     color: #fff;
     padding: 42px 0;
 }
+
+.lang p, .lang i {
+    color: #d0d0d3;
+} 
+
+.lang p {
+    display: inline;
+    color: #d0d0d3;
+}
+
+ 
