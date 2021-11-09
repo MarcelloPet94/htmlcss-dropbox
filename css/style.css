@@ -256,7 +256,6 @@ nav {
 /* logo-grid */
 
 #sponsor_grid {
-    background-color: brown;
 }
 
 .col, .col-cent {
@@ -265,8 +264,16 @@ nav {
 }
 
 .col-cent {
-    height: 100px;
-    border: 1px solid blue;
+    padding: 24px;
+}
+
+.col-cent-img {
+    width: 200px;
+    margin-bottom: 60px;
+}
+
+.col-cent-img img {
+    width: 100%;
 }
 
 .col-cent-text {
@@ -355,4 +362,24 @@ nav {
 
 .fa-chevron-down {
     font-size: 16px;
+}
+
+/* footer */
+
+footer {background-color:brown;}
+
+.foot_grid > div {
+    float: left;
+    width: 260px;
+    height: 300px;
+    border:1px solid turquoise;
+    
+}
+
+hr {
+    border: 5px solid #9fd39c;
+}
+
+.lang {
+    padding: 42px 0;
 }
