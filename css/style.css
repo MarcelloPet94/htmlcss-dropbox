@@ -251,8 +251,8 @@ nav {
 /* logo-grid */
 
 #sponsor_grid {
-    height: auto;
     font-size: 0;
+    background-color: brown;
 }
 
 .col, .col-cent {
@@ -260,11 +260,21 @@ nav {
     width: 33.3%;
 }
 
+.col-cent {
+    position: relative;
+    top: 0;
+    border: 1px solid red;
+}
+
+.col-cent-text {
+    height: 252px;
+    border: 1px solid blue;
+}
+
 .col .logo-box {
     display: inline-block;
     width:252px;
     height: 252px;
-    border:1px solid cornflowerblue;
 }
 
 .contain-logo-box {
@@ -290,4 +300,9 @@ nav {
     transform: translateY(-50%);
     width: 100%;
     fill: white;
+}
+
+.col-cent-txt img {
+    display: block;
+    width: 100px;
 }
