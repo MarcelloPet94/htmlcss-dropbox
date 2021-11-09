@@ -42,7 +42,7 @@ main {
 
 .edit_width {
     margin: 0 auto;
-    width: 1500px;
+    width: 1300px;
 }
 /* default settings */
 
@@ -246,4 +246,29 @@ nav {
 .info_customer a {
     display: block;
     padding-bottom: 80px;
+}
+
+/* logo-grid */
+
+#sponsor_grid {
+    background-color: brown;
+    font-size: 0;
+}
+
+.col, .col-cent {
+    display: inline-block;
+    background-color: cornflowerblue;
+    width: 33.3%;
+}
+
+.col > div {
+    display: inline-block;
+    width:50%;
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+
+.col img {
+    display: block;
+    width: 50%;
 }
