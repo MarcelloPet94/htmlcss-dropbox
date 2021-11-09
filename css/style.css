@@ -251,24 +251,43 @@ nav {
 /* logo-grid */
 
 #sponsor_grid {
-    background-color: brown;
+    height: auto;
     font-size: 0;
 }
 
 .col, .col-cent {
     display: inline-block;
-    background-color: cornflowerblue;
     width: 33.3%;
 }
 
-.col > div {
+.col .logo-box {
     display: inline-block;
-    width:50%;
-    height: 200px;
-    background-color: darkgoldenrod;
+    width:252px;
+    height: 252px;
+    border:1px solid cornflowerblue;
 }
 
-.col img {
+.contain-logo-box {
+    margin: 36px auto 36px;
+    width:180px;
+    height: 180px;
+}
+
+.sx-box:nth-child(1) {background-color: #9fd39c;}
+.sx-box:nth-child(2) {background-color: #63082b;}
+.sx-box:nth-child(3) {background-color: #0093cd;}
+.sx-box:nth-child(4) {background-color: #ff1c1c;}
+.dx-box:nth-child(1) {background-color: #ff1c1c;}
+.dx-box:nth-child(2) {background-color: #b3d0e7;}
+.dx-box:nth-child(3) {background-color: #0b2480;}
+.dx-box:nth-child(4) {background-color: #ffd836;}
+
+
+.logo-box img {
     display: block;
-    width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    fill: white;
 }
