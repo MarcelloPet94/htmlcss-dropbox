@@ -35,7 +35,7 @@ ul li {list-style-type: none;}
 .styl_border_bottom {
     border-bottom: 1px solid #d0d0d3;
 }
-main {
+.width_settings {
     margin: 0 auto;
     width: 1000px;
 }
@@ -256,7 +256,6 @@ nav {
 /* logo-grid */
 
 #sponsor_grid {
-    font-size: 0;
     background-color: brown;
 }
 
@@ -267,7 +266,7 @@ nav {
 
 .col-cent {
     height: 100px;
-    border: 1px solid red;
+    border: 1px solid blue;
 }
 
 .col-cent-text {
@@ -326,4 +325,30 @@ nav {
 
 .banner_txt {
     width: 50%;
+}
+
+/* FAQ */
+
+.accordion_container {
+    border-top: 1px solid #d0d0d3;
+}
+
+.question {
+    line-height: 80px;
+}
+
+.answer {
+    display: none;
+}
+
+.accordion_box {
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.accordion_box:active .answer {
+    display: block;
+}
+
+.answer {
+    padding: 24px 0;
 }
