@@ -255,7 +255,6 @@ nav {
 
 /* logo-grid */
 
-
 .col-container {
     width: 1800px;
     margin: 0 auto;
@@ -353,7 +352,7 @@ nav {
     border-bottom: 1px solid #d0d0d3;
 }
 
-.accordion_box:active .answer {
+.accordion_box:hover .answer {
     display: block;
 }
 
