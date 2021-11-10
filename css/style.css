@@ -185,6 +185,10 @@ nav {
     padding: 24px 0;
 }
 
+.shop a.styl_btn {
+    display: block;
+}
+
 .shop .styl_btn {
     padding: 8px 33px;
 }
@@ -256,18 +260,18 @@ nav {
 /* logo-grid */
 
 .col-container {
-    width: 1800px;
+    width: 100vw;
     margin: 0 auto;
 }
 
 .col {
     float: left;
-    width: 400px;
+    width: 30vw;
 }
 
 .col-cent {
     float: left;
-    width: 1000px;
+    width: 40vw;
     padding: 24px;
 }
 
@@ -282,14 +286,14 @@ nav {
 
 .col .logo-box {
     float: left;
-    width:200px;
-    height: 200px;
+    width:15vw;
+    height: 15vw;
 }
 
 .contain-logo-box {
-    margin: 36px auto 36px;
-    width:140px;
-    height: 140px;
+    margin: 3vw auto 3vw;
+    width:9vw;
+    height: 10vw;
 }
 
 .sx-box:nth-child(1) {background-color: #9fd39c;}
