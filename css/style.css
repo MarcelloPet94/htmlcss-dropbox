@@ -255,15 +255,20 @@ nav {
 
 /* logo-grid */
 
-#sponsor_grid {
+
+.col-container {
+    width: 1800px;
+    margin: 0 auto;
 }
 
-.col, .col-cent {
+.col {
     float: left;
-    width: 33.3%;
+    width: 400px;
 }
 
 .col-cent {
+    float: left;
+    width: 1000px;
     padding: 24px;
 }
 
@@ -276,20 +281,16 @@ nav {
     width: 100%;
 }
 
-.col-cent-text {
-    height: 252px;
-} 
-
 .col .logo-box {
     float: left;
-    width:252px;
-    height: 252px;
+    width:200px;
+    height: 200px;
 }
 
 .contain-logo-box {
     margin: 36px auto 36px;
-    width:180px;
-    height: 180px;
+    width:140px;
+    height: 140px;
 }
 
 .sx-box:nth-child(1) {background-color: #9fd39c;}
