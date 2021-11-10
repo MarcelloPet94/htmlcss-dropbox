@@ -10,7 +10,7 @@ h2 {
     font-size: 40px;
 }
 
-a {text-decoration: none;}
+a {text-decoration: none; color: #010101;}
 
 ul {display: inline-block;}
 
@@ -133,6 +133,11 @@ nav {
     padding: 42px 0;
 }
 
+.title_content a {
+    color: #0061fe;
+    text-decoration: underline;
+}
+
 .select_billing {
     padding: 0 0 42px;
 }
@@ -169,23 +174,31 @@ nav {
 }
 
 .price {
-    padding: 0 0 24px;
+    padding: 0 0 50px;
+}
+
+.price h3, .price p, .price span {
+    margin-bottom: 18px;
 }
 
 .info {
-    padding: 0 0 24px;
+    padding: 0 0 24px 24px;
 }
 
 .info i {
     line-height: 24px;
-    margin-right: 4px;
+    margin: 0 4px 0 -23px;
 }
 
-.shop {
-    padding: 24px 0;
+.info p {
+    margin-bottom: 24px;
 }
 
-.shop a.styl_btn {
+.shop p a {
+    color: #0061fe;
+}
+
+.shop .styl_btn {
     display: block;
 }
 
@@ -197,14 +210,25 @@ nav {
     line-height: 56px;
 }
 
-.deep_info span {
-    font-weight: 700;
+.info_box_divider {
+    width: 60px;
+    margin: 24px 0;
+}
+
+span.title_list {
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.deep_info ul li {
+    margin:0 0 24px 12px;
 }
 
 .deep_info ul li::before {
     content: "✓";
     font-size: 18px;
     font-weight: 900;
+    margin: 0 4px 0 -16px;
     color: #0061fe;
 }
 
@@ -323,6 +347,7 @@ nav {
 /* banner-text */
 
 .bg-banner {
+    height: 200px;
     background-color: #b3d0e7;
 }
 
@@ -336,6 +361,18 @@ nav {
 
 .banner_txt {
     width: 50%;
+}
+
+.banner_txt h3 {
+    color: #63082b;
+}
+
+.shop a {
+    color: #010101;
+}
+
+.shop .styl_btn {
+    background-color: #fff;
 }
 
 /* FAQ */
@@ -416,22 +453,22 @@ footer {background-color:#010101;}
 
 hr {
     width: 100px;
-    background-color: #d0d0d3;
+    background-color: #999999;
 }
 
 .lang {
     font-size: 13px;
-    color: #fff;
+    color: #999999;
     padding: 42px 0;
 }
 
 .lang p, .lang i {
-    color: #d0d0d3;
+    color: #999999;
 } 
 
 .lang p {
     display: inline;
-    color: #d0d0d3;
+    color: #999999;
 }
 
  
