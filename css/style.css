@@ -341,10 +341,21 @@ nav {
 }
 
 .question {
+    position: relative;
     line-height: 80px;
 }
 
+.show_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .answer {
+    display: none;
+}
+
+.hid {
     display: none;
 }
 
@@ -354,6 +365,14 @@ nav {
 
 .accordion_box:hover .answer {
     display: block;
+} 
+
+.accordion_box:hover .hid {
+    display: block;
+}
+
+.accordion_box:hover .vis {
+    display: none;
 }
 
 .answer {
